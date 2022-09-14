@@ -89,11 +89,11 @@ WSGI_APPLICATION = 'mySight.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'photo_prod', 
+        'NAME': 'NAME OF DATABASE HERE', 
         'USER': 'joe', 
-        'PASSWORD': 'ttjoett1',
-        'HOST': 'database-2.crraupxjyovp.us-west-1.rds.amazonaws.com', 
-        'PORT': '5432',
+        'PASSWORD': 'DATABASE PASSWORD',
+        'HOST': 'HOST', 
+        'PORT': 'PORT NUMBER',
     }
 }
 import dj_database_url
